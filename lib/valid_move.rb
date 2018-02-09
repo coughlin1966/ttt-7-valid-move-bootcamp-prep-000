@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-index.to_i - 1.between?(0, 8)
+index.to_i.between?(0, 8)
 
 end
 
